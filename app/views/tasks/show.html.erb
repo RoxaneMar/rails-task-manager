@@ -1,0 +1,4 @@
+<h1><%= @task.name %></h1>
+<p>Created: <%= time_ago_in_words(@task.created_at) %> ago</p>
+
+<%= link_to 'Back to your toDo list', tasks_path  %>
